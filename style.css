@@ -357,7 +357,7 @@ header:hover .header-name p {
     }
 }
 
-@media (max-width: 575.98px) {
+@media (min-width: 320px) and (max-width: 575.98px) {
     nav {
         display: none;
     }
@@ -400,7 +400,7 @@ header:hover .header-name p {
     .header-name p {
         color: transparent;
         font-size: 50px;
-        top: 60px;
+        top: 30px;
         left: 35px;
     }
 
