@@ -54,7 +54,7 @@
     <main id="about">
         <div class="box-t wrapper">
             <h4 data-aos="zoom-in" data-aos-duration="1000"><span>Hi</span>,
-                我是陳筱筑。一年前開始密集接觸網頁設計領域。大學畢業後，先後在台大資訊系統訓練班及資策會進修網頁技能。剛完成了在資策會570個小時的培訓課程「互動式網站UI/UX設計師就業養成班」，也就此開啟了我網頁設計的大門。</h4>
+                我是陳筱筑。一年前開始密集接觸網頁設計領域。大學畢業後，先後在台大資訊系統訓練班及資策會進修網頁技能。剛完成了在資策會570個小時的培訓課程「互動式網站UI/UX設計師就業養成班」，也就此開啟我網頁設計的大門。</h4>
         </div>
         <div class="box-b wrapper" id="skill">
             <div class="box-l" data-aos="zoom-in-right" data-aos-duration="1000">
@@ -291,6 +291,15 @@
         lightbox.option({
             'albumLabel': "作品 %1 / %2"
         })
+
+        $(window).scroll(function () {
+
+            if ($(window).scrollTop() >= $('.box-b').offset().top) {
+                $('.percent_85').delay(1000).css('width', '85%');
+                $('.percent_70').delay(1000).css('width', '70%');
+                $('.percent_50').delay(1000).css('width', '50%');
+            }
+        });
     </script>
 </body>
 
