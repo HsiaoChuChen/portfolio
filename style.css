@@ -384,7 +384,7 @@ header:hover .header-name p {
     .header-bm {
         width: 46%;
         height: 8%;
-        /* bottom: 0; */
+        top: 86%;
         right: 10%;
         display: flex;
         align-items: center;
@@ -429,7 +429,7 @@ main .wrapper {
 
 sub {
     background: #5555FF;
-    width: 100%;
+    /* width: 100%; */
     position: relative;
 }
 
