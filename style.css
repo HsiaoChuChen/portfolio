@@ -32,7 +32,7 @@ body {
 
 .wrapper {
     max-width: 1200px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 
 nav {
@@ -648,7 +648,7 @@ sub {
         height: 1150px;
         display: flex;
         flex-wrap: wrap;
-        padding: 20px;
+        /* padding: 20px; */
     }
 
     .box-l,
