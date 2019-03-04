@@ -1438,6 +1438,10 @@ footer p {
 }
 
 @media (max-width: 575.98px) {
+    .go-top {
+        bottom: 25px;
+    }
+
     .footer-l {
         width: 100%;
     }
