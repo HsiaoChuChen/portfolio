@@ -1119,7 +1119,7 @@ sub {
 
 @media (max-width: 575.98px) {
     .portfolio {
-        height: 480px;
+        height: auto;
     }
 
     .portfolio h2 {
