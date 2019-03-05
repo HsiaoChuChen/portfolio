@@ -303,12 +303,11 @@
         });
 
         //宣告預設表單內容為空
-        var initSubject = '',
-            initBody = '';
+        var initBody = '';
 
         //按下傳送按鈕後執行
         function submitHandler() {
-            var to = "";
+            var to = "mickey70630@gmail.com";
             var name = nameText.value; //讀取ID為 nameTextuser 物件中的值
             var email = emailText.value;
             //把user填的資料都塞到 mail body 中
@@ -316,12 +315,11 @@
             body += "From：" + nameText.value + '%0A';
             body += "Email：" + emailText.value + '%0A';
             //傳送的主要程式碼
-            mailTo.href = "mailto:" + to + "?subject=" + subject + "&body=" + body;
+            mailTo.href = "mailto:" + to + "&body=" + body;
             mailTo.click();
         }
         //onload
         function init() {
-            subText.value = initSubject;
             toText.value = initTo;
             bodyText.value = initBody;
         }
