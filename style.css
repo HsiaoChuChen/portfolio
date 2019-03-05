@@ -1247,7 +1247,7 @@ fieldset {
     margin: 0 10px;
 }
 
-button {
+.button {
     width: 90%;
     height: 8%;
     margin: 12px 0;
@@ -1262,7 +1262,7 @@ button {
     font-family: "PingFang SC", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "Hiragino Sans GB", "Source Han Sans CN Normal", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
 }
 
-button:hover {
+.button:hover {
     box-shadow: 3px 3px 5px rgba(23, 30, 46, .5);
     transform: translateY(-1px);
 }

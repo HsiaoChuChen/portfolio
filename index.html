@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./lightbox2-master/css/lightbox.css">
 </head>
 
-<body onload="init()">
+<body>
     <a id="goTop"><img class="go-top" src="images/go-top.png" alt=""></a>
     <nav class="navbar">
         <ul class="wrapper" id="nav">
@@ -175,7 +175,7 @@
                 <img src="images/contact-01.jpg" alt="">
             </figure>
             <div class="wrapper">
-                <form>
+                <form action="mandiechen1994@gmail.com" method="POST">
                     <fieldset>
                         <div class="st1">
                             <label class="input-title">聯絡人 / 公司單位</label>
@@ -189,8 +189,9 @@
                             <label class="input-title">留言</label>
                             <textarea class="input-text" cols="40" rows="9" id="bodyText" name="message" required></textarea>
                         </div>
-                        <button data-aos="fade-up" data-aos-anchor-plancement="bottom-bottom" data-aos-duration="1000"
-                            onclick="submitHandler()"><a id="mailTo">傳送</a></button>
+                        <input class="button" type="submit" value="傳送" data-aos="fade-up" data-aos-anchor-plancement="bottom-bottom"
+                            data-aos-duration="1000">
+                        <!-- <button data-aos="fade-up" data-aos-anchor-plancement="bottom-bottom" data-aos-duration="1000">傳送</button> -->
                     </fieldset>
                 </form>
             </div>
@@ -301,27 +302,6 @@
                 $('.percent_50').delay(1000).css('width', '50%');
             }
         });
-
-        //宣告預設表單內容為空
-        var initBody = '';
-
-        //按下傳送按鈕後執行
-        function submitHandler() {
-            var to = "mickey70630@gmail.com";
-            var name = nameText.value; //讀取ID為 nameTextuser 物件中的值
-            var email = emailText.value;
-            //把user填的資料都塞到 mail body 中
-            var body = "" + bodyText.value + '%0A%0A%0A';
-            body += "From：" + nameText.value + '%0A';
-            body += "Email：" + emailText.value + '%0A';
-            //傳送的主要程式碼
-            mailTo.href = "mailto:" + to + "&body=" + body;
-            mailTo.click();
-        }
-        //onload
-        function init() {
-            bodyText.value = initBody;
-        }
     </script>
 </body>
 
