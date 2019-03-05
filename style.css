@@ -963,11 +963,11 @@ sub {
 }
 
 .card li {
-    background: #fff;
+    /* background: #fff; */
     height: 80%;
     width: 265px;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 8px;
     overflow: hidden;
     transition: .3s;
     position: relative;
