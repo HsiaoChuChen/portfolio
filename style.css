@@ -137,7 +137,7 @@ header:hover .header-name p {
 
 .header-bm h3 {
     color: #fff;
-    font-size: 14px;
+    font-size: 13px;
     padding: 10px 10px;
 }
 
@@ -525,7 +525,7 @@ sub {
     color: #fff;
     /* margin: 0; */
     margin: 10px 0;
-
+    font-weight: 500;
 }
 
 .ul-l,
@@ -849,6 +849,7 @@ sub {
     color: #fff;
     margin: 0;
     margin: 20px auto 25px;
+    font-weight: 400;
 }
 
 .portfolio-title {
