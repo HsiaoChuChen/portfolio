@@ -289,8 +289,22 @@
             console.log(workType)
             // let workToPic=$(".card li").eq(workType).offset().left;
             // console.log(workToPic)
-            let goToPic = ($(".card li").width() + 20) * workType;
-            $(".card").css("left", 0 - goToPic);
+            // let goToPic = ($(".card li").width() + 20) * workType;
+            // $(".card").css("left", 0 - goToPic);
+            if (workType == 0) {
+                $(".card").css("left", 0);
+            } else if (workType == 1) {
+                $(".card").css("left", 0 - 3990);
+            } else if (workType == 2) {
+                $(".card").css("left", 0 - 5130);
+            } else if (workType == 3) {
+                $(".card").css("left", 0 - 6840);
+            } else if (workType == 4) {
+                $(".card").css("left", 0 - 9120);
+            } else if (workType == 5) {
+                $(".card").css("left", 0 - 11400);
+            }
+
             $(this).find("div").addClass("active")
                 .closest("li")
                 .siblings().find("div").removeClass("active");
