@@ -151,12 +151,12 @@
         <div class="portfolio" id="portfolio">
             <h2>我的作品集</h2>
             <ul class="portfolio-title">
-                <li><a href="#portfolio1">全部<div class="active"></div></a></li>
-                <li><a href="#website">網頁<div></div></a></li>
+                <li><a href="#website">網頁<div class="active"></div></a></li>
                 <li><a href="#3d">3D<div></div></a></li>
                 <li><a href="#illustrator">Illustrator<div></div></a></li>
                 <li><a href="#photoshop">Photoshop<div></div></a></li>
                 <li><a href="#adobeXD">Adobe XD<div></div></a></li>
+                <li><a href="#portfolio1">其他<div></div></a></li>
             </ul>
             <div class="slider-container">
                 <a class="angle-l" id="goPrev"><img src="images/angle-l.png" alt=""></a>
@@ -200,7 +200,7 @@
     <footer class="wrapper" id="external-link">
         <div class="footer-l">
             <img src="images/footer-01.svg" alt="">
-            <p>我的作品集網頁, 其中包含我所學技能與其應用。相關工作機會, 歡迎與我聯繫。</p>
+            <p>我的網頁作品集, 其中包含我所學技能與其應用。相關工作機會, 歡迎與我聯繫。</p>
         </div>
         <div class="footer-r">
             <ul>
@@ -245,8 +245,16 @@
 
         var slideNo = 0;
         var slideWidth = 285;
-        var slideArray = ["ai-01.jpg", "ai-02.jpg", "ps-01.jpg", "ps-02.jpg", "ps-08.jpg", "ps-09.jpg",
-            "ps-10.jpg", "ps-11.jpg"
+        var slideArray = ["web01.png", "web02.png", "web03.png", "web04.png",
+            "web05.png", "web06.png", "web07.png", "web08.png",
+            "web09.png", "web10.png", "app01.jpg", "app02.jpg", "app03.jpg",
+            "app04.jpg", "3d01.png", "3d02.png", "3d03.png", "3d04.png", "ai01.jpg",
+            "ai02.jpg", "ai03.jpg", "ai04.jpg", "ai05.png", "ai06.png", "ai07.jpg", "ps01.jpg", "ps03.jpg",
+            "ps04.jpg", "ps05.jpg", "ps06.jpg", "ps07.jpg", "ps08.jpg", "ps14.jpg", "xd05.png", "xd06.png",
+            "xd07.png", "xd08.png", "xd09.png", "xd10.png", "xd11.png", "xd12.png", "xd13.png", "sk01.png",
+            "sk02.png", "sk03.png", "sk04.png", "sk05.png", "sk06.png", "sk07.png", "sk08.png", "sk09.png",
+            "sk10.png", "sk11.png", "sk12.png", "sk13.png", "sk14.png", "sk15.png", "sk16.png", "sk17.png",
+            "sk18.png", "sk19.png"
         ];
         var slideCount = slideArray.length;
         $("#sliderWrap1").css("width", slideWidth * slideCount);
