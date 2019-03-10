@@ -1157,7 +1157,7 @@ sub {
 
     .angle-l,
     .angle-r {
-        width: 40px;
+        width: 100px;
         height: 100%;
         background: rgba(216, 75, 75, 0);
         border-radius: 0;
@@ -1177,6 +1177,17 @@ sub {
     .angle-r img {
         width: 25px;
         right: 0;
+    }
+}
+
+@media (max-width: 362px) {
+    .slider-container {
+        width: 305px;
+        overflow: hidden;
+    }
+
+    .slider {
+        left: 9px
     }
 }
 
