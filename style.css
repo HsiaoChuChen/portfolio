@@ -386,7 +386,7 @@ header:hover .header-name p {
     .header-name p {
         color: transparent;
         font-size: 60px;
-        top: 25px;
+        top: 15px;
         left: 35px;
     }
 
@@ -798,13 +798,13 @@ sub {
 @media (max-width: 575.98px) {
     .enter-box {
         width: 100%;
-        padding: 20px 40px;
+        padding: 30px 20px;
         display: flex;
         align-items: center;
     }
 
     .enter {
-        padding: 25px;
+        padding: 35px 25px;
     }
 
     .enter a {
