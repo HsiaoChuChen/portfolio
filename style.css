@@ -8,7 +8,7 @@ body {
     margin: 0;
     background: #171E2E;
     position: relative;
-    font-family: "Cinzel", "PingFang SC", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "Hiragino Sans GB", "Source Han Sans CN Normal", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+    font-family: "Cinzel", "PingFang SC", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "Hiragino Sans GB", "Source Han Sans CN Normal", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", "SimHei", "WenQuanYi Zen Hei Sharp", sans-serif;
     /* font-family: 'Cinzel', serif; */
     /* overflow: hidden; */
 }
@@ -17,8 +17,8 @@ body {
     width: 38px;
     height: 38px;
     position: fixed;
-    bottom: 25px;
-    right: 25px;
+    bottom: 20px;
+    right: 20px;
     z-index: 101;
     cursor: pointer;
 }
@@ -81,7 +81,6 @@ header {
 }
 
 .header-m {
-    /* background: rgb(255, 220, 24); */
     width: 38%;
     height: 780px;
     margin: 0;
@@ -127,8 +126,6 @@ header:hover .header-name p {
 
 .header-bm {
     background: #F9AE17;
-    width: 14%;
-    height: 8%;
     position: absolute;
     top: 735px;
     right: 42%;
@@ -142,7 +139,7 @@ header:hover .header-name p {
 .header-bm h3 {
     color: #fff;
     font-size: 13px;
-    /* padding: 10px 10px; */
+    padding: 5px 26px;
 }
 
 .header-bm h3 img {
@@ -183,7 +180,6 @@ header:hover .header-name p {
     }
 
     .header-m {
-        /* background: rgb(255, 220, 24); */
         width: 32%;
         height: 580px;
         margin: 0;
@@ -202,14 +198,8 @@ header:hover .header-name p {
     }
 
     .header-bm {
-        width: 14%;
-        height: 8%;
         top: 500px;
         right: 48%;
-        /* text-align: center; */
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
     }
 
 
@@ -229,14 +219,11 @@ header:hover .header-name p {
     }
 
     .header-m {
-        /* background: rgb(255, 220, 24); */
         width: 40%;
         height: 520px;
     }
 
     .header-bm {
-        width: 18%;
-        height: 8%;
         top: 485px;
         right: 40%;
         display: flex;
@@ -247,7 +234,6 @@ header:hover .header-name p {
 
     .header-bm h3 {
         font-size: 14px;
-        padding: 7px 10px;
     }
 
     .header-bm h3 img {
@@ -257,7 +243,7 @@ header:hover .header-name p {
     .header-name p {
         color: transparent;
         font-size: 70px;
-        top: 410px;
+        top: 400px;
         left: 51px;
     }
 
@@ -280,14 +266,11 @@ header:hover .header-name p {
     }
 
     .header-m {
-        /* background: rgb(255, 220, 24); */
         width: 50%;
         height: 490px;
     }
 
     .header-bm {
-        width: 21%;
-        height: 10%;
         top: 435px;
         right: 19%;
         display: flex;
@@ -298,7 +281,6 @@ header:hover .header-name p {
 
     .header-bm h3 {
         font-size: 12px;
-        padding: 7px 10px;
     }
 
     .header-bm h3 img {
@@ -307,9 +289,9 @@ header:hover .header-name p {
 
     .header-name p {
         color: transparent;
-        font-size: 60px;
-        top: 150px;
-        left: 32px;
+        font-size: 75px;
+        top: 100px;
+        left: 35px;
     }
 
     .header-r p {
@@ -332,14 +314,11 @@ header:hover .header-name p {
     }
 
     .header-m {
-        /* background: rgb(255, 220, 24); */
         width: 55%;
         height: 450px;
     }
 
     .header-bm {
-        width: 28%;
-        height: 10%;
         top: 442px;
         right: 10%;
         display: flex;
@@ -350,7 +329,6 @@ header:hover .header-name p {
 
     .header-bm h3 {
         font-size: 12px;
-        padding: 7px 10px;
     }
 
     .header-bm h3 img {
@@ -359,9 +337,9 @@ header:hover .header-name p {
 
     .header-name p {
         color: transparent;
-        font-size: 60px;
-        top: 150px;
-        left: 32px;
+        font-size: 70px;
+        top: 130px;
+        left: 28px;
     }
 
     .header-r p {
@@ -383,15 +361,12 @@ header:hover .header-name p {
     }
 
     .header-m {
-        /* background: rgb(255, 220, 24); */
         width: 68%;
         height: 360px;
         left: 10%;
     }
 
     .header-bm {
-        width: 46%;
-        height: 8%;
         top: 86%;
         right: 10%;
         display: flex;
@@ -402,7 +377,6 @@ header:hover .header-name p {
 
     .header-bm h3 {
         font-size: 12px;
-        padding: 7px 10px;
     }
 
     .header-bm h3 img {
@@ -411,8 +385,8 @@ header:hover .header-name p {
 
     .header-name p {
         color: transparent;
-        font-size: 50px;
-        top: 30px;
+        font-size: 60px;
+        top: 25px;
         left: 35px;
     }
 
@@ -422,7 +396,6 @@ header:hover .header-name p {
 }
 
 main {
-    /* background: #AAAAAA; */
     width: 100%;
 }
 
@@ -437,7 +410,6 @@ main .wrapper {
 
 sub {
     background: #5555FF;
-    /* width: 100%; */
     position: relative;
 }
 
@@ -495,9 +467,7 @@ sub {
 
 .box-t,
 .box-b {
-    /* background: #666666; */
     height: 500px;
-    /* margin: 0 auto; */
     padding: 50px;
     display: flex;
     justify-content: center;
@@ -537,7 +507,6 @@ sub {
 .box-l h3,
 .box-r h3 {
     color: #fff;
-    /* margin: 0; */
     margin: 10px 0;
     font-weight: 500;
 }
@@ -593,7 +562,6 @@ sub {
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .box-t h4 {
-        /* font-size: 14px; */
         margin: 80px 60px;
         padding: 0;
     }
@@ -601,7 +569,6 @@ sub {
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     .box-t h4 {
-        /* font-size: 14px; */
         margin: 80px 60px;
         padding: 0;
     }
@@ -624,7 +591,6 @@ sub {
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     .box-t h4 {
-        /* font-size: 14px; */
         margin: 80px 60px;
         padding: 0;
     }
@@ -648,7 +614,6 @@ sub {
 @media (max-width: 575.98px) {
     .box-t {
         height: 580px;
-        /* margin: 10px; */
         padding: 55px 20px 20px;
     }
 
@@ -662,7 +627,6 @@ sub {
         height: 1150px;
         display: flex;
         flex-wrap: wrap;
-        /* padding: 20px; */
     }
 
     .box-l,
@@ -679,7 +643,6 @@ sub {
 }
 
 .e-commerce {
-    /* background: #444444; */
     width: 100%;
     height: 400px;
     margin: 20px auto 0;
@@ -817,13 +780,13 @@ sub {
 @media (min-width: 576px) and (max-width: 767.98px) {
     .enter-box {
         width: 100%;
-        padding: 55px 100px;
+        padding: 55px 80px;
         display: flex;
         align-items: center;
     }
 
     .enter {
-        padding: 25px 65px;
+        padding: 30px 45px;
     }
 
     .enter a {
@@ -835,7 +798,7 @@ sub {
 @media (max-width: 575.98px) {
     .enter-box {
         width: 100%;
-        padding: 20px;
+        padding: 20px 40px;
         display: flex;
         align-items: center;
     }
@@ -958,7 +921,6 @@ sub {
 }
 
 .slider {
-    /* max-width: 1140px; */
     height: 100%;
     overflow: hidden;
     position: relative;
@@ -970,7 +932,6 @@ sub {
     height: 100%;
     padding: 0;
     margin: 0;
-    /* background: #202A39; */
     justify-content: space-between;
     align-items: center;
     position: relative;
@@ -979,7 +940,6 @@ sub {
 }
 
 .card li {
-    /* background: #fff; */
     height: 80%;
     width: 265px;
     margin: 10px;
@@ -1159,7 +1119,6 @@ sub {
         flex-wrap: wrap;
         justify-content: center;
         overflow: hidden;
-        /* width: 650px; */
         height: 100%;
         margin: 0;
     }
@@ -1208,7 +1167,6 @@ sub {
 
 .contact {
     background: #fff;
-    /* width: 100%; */
     height: 420px;
     position: relative;
 }
@@ -1247,7 +1205,6 @@ sub {
 
 fieldset {
     border: 10px solid rgba(255, 255, 255, .1);
-    /* width: 100%; */
     height: 100%;
     background: rgba(23, 30, 46, 0.7);
     background-clip: padding-box;
@@ -1359,7 +1316,6 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* margin: 0 auto; */
 
 }
 
